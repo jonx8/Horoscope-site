@@ -18,7 +18,5 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('profile/<slug:slug>',
-         UserProfileDetail.as_view(), name='profile_url'),
     path('', IndexView, name='index')
 ]

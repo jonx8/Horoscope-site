@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block title %}
-	<title>Профиль пользователя - {{ userprofile.username }}</title>
+	<title>Профиль пользователя - {{ user.username }}</title>
 {% endblock title %}
 {% block content %}
-	<p>{{ userprofile.username }}</p>
-	<p>{{ userprofile.password }}</p>
+	<p>{{ user.username }}</p>
+	<p>{{ user.password }}</p>
 {% endblock content %}
